@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            Giải hệ phương trình
+        </title>
+    </head>
+    <body>
+        <script language="JavaScript">
+            var a1;
+            a1=prompt("nhap gia tri cua a1:");
+            var b1;
+            b1=prompt("nhap gia tri cua b1:");
+            var c1;
+            c1=prompt("nhap gia tri cua c1:");
+            var a2;
+            a2=prompt("nhap gia tri cua a2:");
+            var b2;
+            b2=prompt("nhap gia tri cua b2:");
+            var c2;
+            c2=prompt("nhap gia tri cua c2:");
+            var delta  = a1*b2-a2*b1;
+            var deltax = c1*b2-c2*b1;
+            var deltay = a1*c2-a2*c1;
+            var x= deltax/delta;
+            var y= deltay/delta;
+            alert('x là:'+x);
+            alert('y là:'+y);
+        </script>
+    </body>
+</html>

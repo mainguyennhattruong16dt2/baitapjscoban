@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            Bài tập tìm số chẵn lẻ
+        </title>
+    </head>
+    <body>
+        <script language="JavaScript">
+            var a,b;
+            function UCLN(x,y){
+                while(x!=y){
+                if(x>y){
+                    x=x-y;
+                }
+                else 
+                y=y-x;
+            }
+                return x;
+
+            }
+            a=prompt("nhap gia tri cua a:");
+            b=prompt("nhap gia tri cua b:");
+            document.write('uoc chung lon nhat'+UCLN(a,b));
+            
+            document.write('boi chung nho nhat'+a*b/UCLN(a,b));
+            // var a;
+            // a=prompt("nhap gia tri cua a:");
+            // if(a%2==0){
+            //     alert(' la so chan');
+            // }
+            // else{
+            //     alert('la so le');
+            // }
+        </script>
+    </body>
+</html>

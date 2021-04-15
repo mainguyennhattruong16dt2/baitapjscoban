@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            Sử dụng vòng lặp for in từ 1 đến n với n nhập từ bàn phím
+        </title>
+    </head>
+    <body>
+        <script language="JavaScript">
+            var a =parseInt(prompt('nhạp vào giá trị a: '));
+            var b =parseInt(prompt('nhạp vào giá trị b: '));
+            function UCLN(x,y) {
+               
+                while(x!=y){
+                    if(x>y){
+                        x-=y;
+                    }else{
+                        y-=x;
+                    }
+                    
+                }
+                return x;
+                
+            }
+            console.log('ước chung lớn nhất của 2 số là',UCLN(a,b));
+            console.log('bội chung nhỏ nhất của 2 số là:',a*b/UCLN(a,b));
+            
+            
+        </script>
+    </body>
+</html>

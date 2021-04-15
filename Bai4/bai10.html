@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Sử dụng vòng lặp for in từ 1 đến n với n nhập từ bàn phím
+        </title>
+    </head>
+    <body>
+        
+        <script language="JavaScript">
+          
+           var S=' mais nguyens Nhats Truongs';
+           var trong='';
+          //cau a
+          for(var i=S.length-1;i>=0;i--){
+              trong+=S[i];
+          }
+          document.write(trong);
+        //cau b
+        var hoa=S.toUpperCase();
+        document.write('<br/>');
+        document.write(hoa);
+        //cau c
+        var thuong=S.toLowerCase()
+        document.write('<br/>');
+        document.write(thuong);
+        //cau e
+        var string='how are you to day';
+        var n=parseInt(prompt('nhập vào giá trị đầu tiên cho vị trí cắt: '));
+        var m=parseInt(prompt('nhập vào giá trị cuối cùng cho vị trí cắt: '));
+        var cat=string.slice(n,m)
+        document.write('<br/>');
+        document.write(cat);
+        </script>
+    </body>
+</html>

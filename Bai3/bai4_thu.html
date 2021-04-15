@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Sử dụng vòng lặp for in từ 1 đến n với n nhập từ bàn phím
+        </title>
+    </head>
+    <body>
+        
+        <script language="JavaScript">
+            // function get(){
+            //     var ten=prompt('nhập tên: ');
+            //     var tuoi=prompt('nhập tuổi: ');
+            //     document.write(ten);
+            //     document.write('<br/>');
+            //     document.write(tuoi);
+            // }
+            // get();
+            var n=parseInt(prompt('vui lòng nhập vào số nhân viên: '));
+            if(n>0){
+                for(var i=1;i<=n;i++){
+                    document.write('<br/>');
+                    function get(){
+                    var ten=prompt('nhập tên: ');
+                    var tuoi=prompt('nhập tuổi: ');
+                    var gioitinh=prompt('nhập giới tính: ');
+                    var diem=prompt('nhập điểm trung bình của đại học: ');
+                    var mucluong=prompt('nhập mức lương hiện nay: ');
+                    document.write(ten);
+                    document.write('<br/>');
+                    document.write(tuoi);
+                    document.write('<br/>');
+                    document.write(gioitinh);
+                    document.write('<br/>');
+                    document.write(diem);
+                    document.write('<br/>');
+                    document.write(mucluong);
+                    document.write('<br/>');
+                }
+
+                    get();
+                }
+            }else{
+                alert('nhập n lớn hơn 0');
+            }
+           
+        </script>
+    </body>
+</html>

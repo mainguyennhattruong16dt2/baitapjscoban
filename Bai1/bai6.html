@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            in số tự nhiên theo 4 cách
+        </title>
+    </head>
+    <body>
+        <script language="JavaScript">
+             var a;
+            a=prompt('nhập vào số tự nhiên từ 1 đến 5');
+            // cách 1
+            if(a==1){
+                alert('one');
+            }
+            if(a==2){
+                alert('two');
+            }
+            if(a==3){
+                alert('three');
+            }
+            if(a==4){
+                alert('four');
+            }
+            if(a==5){
+                alert('five');
+            }
+            // cách 2
+            if(a==1){
+                alert('one');
+            }else if(a==2){
+                alert('two');
+            }else if(a==3){
+                alert('three');
+            }else if(a==4){
+                alert('four');
+            }else if(a==5){
+                alert('five');
+            }
+            // cách 3
+            if(a>0&&a<6){
+                if(a==1){
+                    alert('one');
+                }
+                if(a==2){
+                    alert('two');
+                }
+                if(a==3){
+                    alert('three');
+                }
+                if(a==4){
+                    alert('four');
+                }
+                if(a==5){
+                    alert('five');
+                }
+
+            }
+            // cách 4
+            
+            
+            const a= parseInt(prompt("Nhập a là :"));
+
+            switch (a) {
+            case 1:
+                alert( 'One' );
+                break;
+            case 2:
+                alert( 'two' );
+                break;
+            case 3:
+                alert( 'three' );
+                break;
+            case 4:
+                alert( 'four' );
+                break;
+            case 5:
+                alert( 'five' );
+                break;
+            default:
+                alert( "Phải nhập từ 1 đến 5" );
+            }
+        </script>
+    </body>
+</html>

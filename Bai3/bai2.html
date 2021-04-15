@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Sử dụng vòng lặp for in từ 1 đến n với n nhập từ bàn phím
+        </title>
+    </head>
+    <body>
+        <script language="JavaScript">
+            
+            // function UCLN(a,b){
+            //     while(a!=b){
+            //         if(a>b){
+            //             a=a-b;
+            //         }else
+            //         b=b-a;
+            //     }
+            //     return a;
+            // }
+            function UCLN(x,y){
+                while(x!=y){
+                if(x>y){
+                    x=x-y;
+                }
+                else 
+                y=y-x;
+            }
+                return x;
+
+            }
+            var a=parseInt(prompt('nhập vào số đầu tiên: '));
+            var b=parseInt(prompt('nhập vào số thứ hai: '));
+            var c=parseInt(prompt('nhập vào số thứ ba: '));
+            var tg=UCLN(a,b);
+            document.write(tg);
+            document.write('<br/>');
+            document.write(UCLN(tg,c));
+           
+        </script>
+    </body>
+</html>

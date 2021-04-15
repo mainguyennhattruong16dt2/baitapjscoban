@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>
+            Sử dụng vòng lặp for in từ 1 đến n với n nhập từ bàn phím
+        </title>
+    </head>
+    <body>
+        <script language="JavaScript">
+            
+            // var n =parseInt(prompt('nhập vào giá trị n: '));
+            // for(var i=1;i<=n;i++){
+            //    for(var j=1;j<=i;j++){
+            //        document.write('*');
+                   
+            //    }
+            //    document.write('<br/>');
+                   
+            // }
+            // var n =parseInt(prompt('nhập vào giá trị n: '));
+            // for(var i=1;i<=n;i++){
+            //    for(var j=n;j>=i;j--){
+            //        document.write('*');
+                   
+            //    }
+            //    document.write('<br/>');
+                   
+            // }
+            // var n =parseInt(prompt('nhập vào giá trị n: '));
+            // for(var i=1;i<=n;i++){
+            //     for(var j=1;j<=n;j++){
+            //         if(j<=n-i){
+            //             document.write('&nbsp&nbsp');
+            //         }else{
+            //             document.write('*');
+            //         }
+            //     }
+            //     document.write('<br/>');
+            // }
+            
+            // var n =parseInt(prompt('nhập vào giá trị n: '));
+            // for(var i=1;i<=n;i++){
+            //     for(var j=1;j<=n;j++){
+            //         if(j>i-1){
+            //             document.write('*');
+            //         }else{
+            //             document.write('&nbsp&nbsp');
+            //         }
+            //     }
+            //     document.write('<br/>');
+            // }
+
+            // var n =parseInt(prompt('nhập vào giá trị n: '));
+            // for(var i=1;i<=n;i+=2){
+            //     for(var j=1;j<=n;j++){
+            //         if(j<=n-i){
+            //             document.write('&nbsp');
+            //         }else{
+            //             document.write('*');
+            //         }
+            //     }
+            //     document.write('<br/>');
+            // }
+            var n =parseInt(prompt('nhập vào giá trị n: '));
+            for(var i=1;i<=n;i+=2){
+                for(var j=1;j<=n;j++){
+                    if(j>i-1){
+                        document.write('*');
+                    }else{
+                        document.write('&nbsp');
+                    }
+                }
+                document.write('<br/>');
+            }
+               
+            
+        </script>
+    </body>
+</html>

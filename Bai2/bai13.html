@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Sử dụng vòng lặp for in từ 1 đến n với n nhập từ bàn phím
+        </title>
+    </head>
+    <body>
+        <script language="JavaScript">
+            var n =parseInt(prompt('nhạp vào giá trị n: '));
+            var P=1;
+            var temp=n;
+            var S=0;
+            while(temp !=0){
+                S=S+(temp %10);
+                P=P*(temp %10);
+                temp =Math.floor(temp/10);
+                
+                
+            }
+            console.log('tích các chữ số là:'+' '+P);
+            console.log('tổng các chữ số là:'+' '+S);
+            // for(var i=1; i<=n;i++){
+            //     console.log(2**i);
+            // }
+        </script>
+    </body>
+</html>
